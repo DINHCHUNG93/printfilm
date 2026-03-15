@@ -1,5 +1,8 @@
 #  GCC AI Motion Comic & Video Factory
 
+
+中文[中文手册](https://github.com/yuanzhongqiao/deep-comedy-pro/blob/main/readme-cn.md)
+
 **AI One-Stop Short Film/Motion Comic Generation Platform**  
 **Industrial AI Motion Comic & Video Workbench**
 
