@@ -1,12 +1,14 @@
 #  GCC AI Motion Comic & Video Factory     一站式短剧平台
 
+Short videos by AI :  www.printfilm.com
 
-# 客户端
+Films  Moive and Drama  by   PrintFilm-Pro
 
 
-通过网盘分享的文件：短剧平台安装程序.zip
-链接: https://pan.baidu.com/s/1gUzHmP9Bqbi3U8C9jVpzrw?pwd=k4qa 提取码: k4qa 
---来自百度网盘超级会员v9的分享
+一句话生成短视频  www.printfilm.com
+
+AI生成短剧： 源代码和客户端
+
 
 
 
