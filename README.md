@@ -1,4 +1,4 @@
-#   Videos BY AI   一站式短剧平台
+#  short  Videos BY AI    
 
 Make Moives by AI
 
@@ -11,7 +11,7 @@ Films  Moive and Drama  by   PrintFilm-Pro
 
 Windows Application OR Website
 
-Windows : set ip file : download the file[https://github.com/yuanzhongqiao/deep-printfilm/archive/refs/tags/PrintFilmPro-V-0.8.03.zip]
+Windows : setup file : download the file[https://github.com/yuanzhongqiao/deep-printfilm/archive/refs/tags/PrintFilmPro-V-0.8.03.zip]
 
 https://github.com/yuanzhongqiao/deep-printfilm/archive/refs/tags/PrintFilmPro-V-0.8.03.zip
 
