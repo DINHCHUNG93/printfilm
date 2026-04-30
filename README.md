@@ -1,4 +1,6 @@
-# Print Film
+# Print Film  
+
+[中文介绍](https://github.com/yuanzhongqiao/deep-printfilm/blob/main/README%20-%20cn.md)
 
 AI Comic & Short Drama Studio is an AI creation workspace designed for creators of short dramas, comic dramas, motion comics and film storyboards. It aims to rapidly turn story ideas into previewable, exportable and editable visual assets and video clips.
 
@@ -8,7 +10,6 @@ The project adopts a Script-to-Asset-to-Keyframe workflow: finalize the plot and
 
 Make Moives by AI
 
-中文[中文手册] [https://github.com/yuanzhongqiao/deep-printfilm/blob/main/readme-cn.md](https://github.com/yuanzhongqiao/deep-printfilm/blob/main/README%20-%20cn.md)
 
 
 Short videos by AI :  www.printfilm.com
