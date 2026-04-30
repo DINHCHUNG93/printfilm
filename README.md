@@ -256,3 +256,16 @@ docker-compose down
 - 角色与场景视觉设定
 - AI视频片段批量生成
 - 创意原型验证和资产整理
+
+
+# MIT
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=yuanzhongqiao%2Fdeep-printfilm&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yuanzhongqiao/deep-printfilm&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=yuanzhongqiao/deep-printfilm&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=yuanzhongqiao/deep-printfilm&type=date&legend=top-left" />
+ </picture>
+</a>
