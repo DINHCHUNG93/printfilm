@@ -24,6 +24,79 @@ https://github.com/yuanzhongqiao/deep-printfilm/archive/refs/tags/PrintFilmPro-V
 
 
 
+# Project Launch
+
+## Local Development
+```bash
+npm install
+npm run dev
+```
+After startup, access the local address displayed in the terminal. The Vite development environment proxies `/api-proxy` to the GitCC API for local debugging.
+
+
+## Build Production Version
+```bash
+npm run build
+npm run preview
+```
+
+
+## Docker Deployment
+```bash
+docker-compose up -d --build
+docker-compose logs -f
+docker-compose down
+```
+- Access via port **3005** by default.  
+- Compose generates:  
+  - `ai-manga-studio:latest` image  
+  - `ai-manga-studio-app` container  
+  - `ai-manga-studio-network` network  
+- Nginx hosts frontend static files and proxies `/api-proxy` to the GitCC API.
+
+
+## Docker Command Method
+```bash
+docker build -t ai-manga-studio .
+docker run -d -p 3005:80 --name ai-manga-studio-app ai-manga-studio
+docker logs -f ai-manga-studio-app
+docker stop ai-manga-studio-app
+```
+
+
+## Desktop Version
+```bash
+npm run electron:dev
+npm run electron:build
+npm run electron:build:win
+```
+- `electron:dev`: Builds the frontend first, then launches the Electron window.  
+- `electron:build`: Uses `electron-builder` to generate desktop installation packages.  
+- Windows installers are output to the `release/` directory with the product name **AI Manga Studio**.  
+- The desktop version includes a built-in local HTTP server that hosts the frontend and proxies `/api-proxy` to the GitCC API.
+
+
+## Quick Start
+1. After launching the app, fill in your **GitCC API Key** in *Model Configuration*.  
+2. Go to **Phase 01: Plot Creation**: Enter a story idea to generate a script and storyboard.  
+3. Go to **Phase 02: Scene & Characters**: Generate character design sheets, costume variations, and scene images.  
+4. Go to **Phase 03: AI Workbench**: Generate keyframes and video clips one by one.  
+5. Go to **Phase 04: Production & Export**: Preview and download keyframes, videos, and project assets.  
+- To adjust prompts, use **Asset Management** for centralized viewing/editing.
+
+
+## Common Commands
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
+npm run electron:dev
+npm run electron:build
+docker-compose up -d --build
+docker-compose down
+```
+
 # AI 漫剧工场
 
 > **AI 一站式短剧/漫剧生成平台**  
