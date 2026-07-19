@@ -1,3 +1,36 @@
+
+
+Dự án mã nguồn mở biến ý tưởng thành phim ngắn AI theo quy trình chuyên nghiệp
+
+PrintFilm là một dự án mã nguồn mở xây dựng một AI Studio hoàn chỉnh dành cho sáng tạo phim ngắn, motion comic, storyboard và video AI, với quy trình sản xuất giống như trong ngành làm phim. (GitHub⁠￼)
+
+Điểm khác biệt lớn nhất của PrintFilm là workflow Script → Asset → Keyframe → Video:
+
+* AI viết kịch bản và phân cảnh từ ý tưởng ban đầu.
+* Tạo nhân vật, trang phục và bối cảnh thống nhất.
+* Sinh các keyframe đầu và cuối cho từng cảnh.
+* AI tạo chuyển động giữa các keyframe để tạo thành video hoàn chỉnh.
+* Preview và xuất toàn bộ tài sản để tiếp tục hậu kỳ. (GitHub⁠￼)
+
+Một số tính năng nổi bật:
+
+* AI hỗ trợ viết kịch bản và storyboard.
+* Tạo concept nhân vật, trang phục và bối cảnh.
+* Quản lý toàn bộ asset của dự án.
+* Sinh ảnh và video ngay trong một workspace duy nhất.
+* Timeline xem trước và xuất toàn bộ project.
+* Chạy dưới dạng Web, Docker hoặc ứng dụng Desktop Electron. (GitHub⁠￼)
+
+Điều mình đánh giá cao là PrintFilm không đi theo hướng “Text-to-Video một phát ăn ngay”. Thay vào đó, dự án áp dụng tư duy keyframe-driven, giúp kiểm soát tốt hơn bố cục, nhân vật và tính nhất quán giữa các cảnh – điều mà nhiều mô hình tạo video hiện nay vẫn còn gặp khó khăn. (GitHub⁠￼)
+
+Về công nghệ, dự án được xây dựng với React 19, TypeScript, Vite, Electron và Docker, sử dụng API tương thích OpenAI để kết nối các mô hình AI tạo văn bản, hình ảnh và video. (GitHub⁠￼)
+
+Nếu bạn đang phát triển các ứng dụng AI Video, Motion Comic hay muốn xây dựng quy trình sản xuất nội dung bằng AI chuyên nghiệp, PrintFilm là một repository rất đáng để tham khảo.
+
+
+
+
+
 # Print Film  
 
 [中文介绍](https://github.com/yuanzhongqiao/deep-printfilm/blob/main/README%20-%20cn.md)
